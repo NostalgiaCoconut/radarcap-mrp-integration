@@ -1,0 +1,135 @@
+Tue 04/14/2026  5:00:01.89 - Sync start 
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO Fetching from SAP...
+INFO Fetched 142 work centers
+INFO Fetched 200 programs
+WARNING Planned orders not available in sandbox — using product master as proxy
+INFO Generated 600 placeholder demand records
+WARNING Production orders not available in sandbox — using capacity intervals as proxy
+ERROR get_capacity_requirements: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_WORK_CENTERS/A_WorkCenterCapacityInterval?%24top=200&%24format=json&%24select=WorkCenter%2CPlant%2CCapacityRequirement
+ERROR get_oee_data: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTNOTIFICATION/MaintenanceNotification?%24top=200&%24format=json&%24select=MaintenanceNotification%2CEquipment%2CMaintNotifCreationDate%2CMaintNotifType
+INFO Written: radarcap_imports\radarcap_import_20260414_050010.xlsx
+Health: {'status': 'ok', 'system': 'SAPConnector'}
+{
+  "status": "ok",
+  "records": {
+    "work_centers": 109,
+    "programs": 200,
+    "demand_forecasts": 600,
+    "capacity_requirements": 0,
+    "oee_records": 0
+  },
+  "output_file": "radarcap_imports\\radarcap_import_20260414_050010.xlsx"
+}
+Tue 04/14/2026  5:00:12.21 - Sync done 
+Tue 04/14/2026  6:00:01.89 - Sync start 
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO Fetching from SAP...
+INFO Fetched 142 work centers
+INFO Fetched 200 programs
+WARNING Planned orders not available in sandbox — using product master as proxy
+INFO Generated 600 placeholder demand records
+WARNING Production orders not available in sandbox — using capacity intervals as proxy
+ERROR get_capacity_requirements: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_WORK_CENTERS/A_WorkCenterCapacityInterval?%24top=200&%24format=json&%24select=WorkCenter%2CPlant%2CCapacityRequirement
+ERROR get_oee_data: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTNOTIFICATION/MaintenanceNotification?%24top=200&%24format=json&%24select=MaintenanceNotification%2CEquipment%2CMaintNotifCreationDate%2CMaintNotifType
+INFO Written: radarcap_imports\radarcap_import_20260414_060005.xlsx
+Health: {'status': 'ok', 'system': 'SAPConnector'}
+{
+  "status": "ok",
+  "records": {
+    "work_centers": 109,
+    "programs": 200,
+    "demand_forecasts": 600,
+    "capacity_requirements": 0,
+    "oee_records": 0
+  },
+  "output_file": "radarcap_imports\\radarcap_import_20260414_060005.xlsx"
+}
+Tue 04/14/2026  6:00:06.08 - Sync done 
+Tue 04/14/2026  7:00:01.89 - Sync start 
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO Fetching from SAP...
+INFO Fetched 142 work centers
+INFO Fetched 200 programs
+WARNING Planned orders not available in sandbox — using product master as proxy
+INFO Generated 600 placeholder demand records
+WARNING Production orders not available in sandbox — using capacity intervals as proxy
+ERROR get_capacity_requirements: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_WORK_CENTERS/A_WorkCenterCapacityInterval?%24top=200&%24format=json&%24select=WorkCenter%2CPlant%2CCapacityRequirement
+ERROR get_oee_data: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTNOTIFICATION/MaintenanceNotification?%24top=200&%24format=json&%24select=MaintenanceNotification%2CEquipment%2CMaintNotifCreationDate%2CMaintNotifType
+INFO Written: radarcap_imports\radarcap_import_20260414_070004.xlsx
+Health: {'status': 'ok', 'system': 'SAPConnector'}
+{
+  "status": "ok",
+  "records": {
+    "work_centers": 109,
+    "programs": 200,
+    "demand_forecasts": 600,
+    "capacity_requirements": 0,
+    "oee_records": 0
+  },
+  "output_file": "radarcap_imports\\radarcap_import_20260414_070004.xlsx"
+}
+Tue 04/14/2026  7:00:05.71 - Sync done 
+Tue 04/14/2026  8:00:01.90 - Sync start 
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO Fetching from SAP...
+INFO Fetched 142 work centers
+INFO Fetched 200 programs
+WARNING Planned orders not available in sandbox — using product master as proxy
+INFO Generated 600 placeholder demand records
+WARNING Production orders not available in sandbox — using capacity intervals as proxy
+ERROR get_capacity_requirements: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_WORK_CENTERS/A_WorkCenterCapacityInterval?%24top=200&%24format=json&%24select=WorkCenter%2CPlant%2CCapacityRequirement
+ERROR get_oee_data: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTNOTIFICATION/MaintenanceNotification?%24top=200&%24format=json&%24select=MaintenanceNotification%2CEquipment%2CMaintNotifCreationDate%2CMaintNotifType
+INFO Written: radarcap_imports\radarcap_import_20260414_080004.xlsx
+Health: {'status': 'ok', 'system': 'SAPConnector'}
+{
+  "status": "ok",
+  "records": {
+    "work_centers": 109,
+    "programs": 200,
+    "demand_forecasts": 600,
+    "capacity_requirements": 0,
+    "oee_records": 0
+  },
+  "output_file": "radarcap_imports\\radarcap_import_20260414_080004.xlsx"
+}
+Tue 04/14/2026  8:00:05.57 - Sync done 
+Tue 04/14/2026  9:00:01.92 - Sync start 
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO SAP auth status: 200
+INFO SAP connection OK
+INFO Fetching from SAP...
+INFO Fetched 142 work centers
+INFO Fetched 200 programs
+WARNING Planned orders not available in sandbox — using product master as proxy
+INFO Generated 600 placeholder demand records
+WARNING Production orders not available in sandbox — using capacity intervals as proxy
+ERROR get_capacity_requirements: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_WORK_CENTERS/A_WorkCenterCapacityInterval?%24top=200&%24format=json&%24select=WorkCenter%2CPlant%2CCapacityRequirement
+ERROR get_oee_data: 404 Client Error: Not Found for url: https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_MAINTNOTIFICATION/MaintenanceNotification?%24top=200&%24format=json&%24select=MaintenanceNotification%2CEquipment%2CMaintNotifCreationDate%2CMaintNotifType
+INFO Written: radarcap_imports\radarcap_import_20260414_090005.xlsx
+Health: {'status': 'ok', 'system': 'SAPConnector'}
+{
+  "status": "ok",
+  "records": {
+    "work_centers": 109,
+    "programs": 200,
+    "demand_forecasts": 600,
+    "capacity_requirements": 0,
+    "oee_records": 0
+  },
+  "output_file": "radarcap_imports\\radarcap_import_20260414_090005.xlsx"
+}
+Tue 04/14/2026  9:00:06.63 - Sync done 

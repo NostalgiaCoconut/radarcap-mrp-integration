@@ -1,0 +1,16 @@
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+radarcap_imports/
+radarcap_exports/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.pytest_cache/
+.coverage
+secrets.cfg
